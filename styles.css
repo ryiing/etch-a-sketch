@@ -1,0 +1,35 @@
+/* * {
+    outline: 1px lightcoral solid;
+} */
+
+
+
+.grid {
+    display: flex;
+    max-width: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    outline: 2px black solid;
+}
+
+.newGrid {
+    display: flex;
+    max-width: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    outline: 2px black solid;
+}
+
+.square {
+    outline: 1px lightgray solid;
+    width: 10px;
+    height: 10px;
+    margin: 0px;
+    padding: 0;
+}
+
+.square-hover {
+    background-color: red;
+}
